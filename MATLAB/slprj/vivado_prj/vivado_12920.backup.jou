@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 21 21:52:18 2021
+# Process ID: 12920
+# Current directory: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj
+# Command line: vivado.exe -mode batch -notrace -source DOA_rearanged_Xilinx_Vivado_run.tcl
+# Log file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/vivado.log
+# Journal file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj\vivado.jou
+#-----------------------------------------------------------
+source DOA_rearanged_Xilinx_Vivado_run.tcl -notrace

@@ -1,0 +1,1228 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 21 21:53:46 2021
+# Process ID: 3728
+# Current directory: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/DOA_rearanged_vivado.runs/synth_1
+# Command line: vivado.exe -log DOA_rearanged.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DOA_rearanged.tcl
+# Log file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/DOA_rearanged_vivado.runs/synth_1/DOA_rearanged.vds
+# Journal file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/DOA_rearanged_vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DOA_rearanged.tcl -notrace
+Command: synth_design -top DOA_rearanged -part xc7s25ftgb196-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Device 21-403] Loading part xc7s25ftgb196-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15556
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1144.117 ; gain = 17.520
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DOA_rearanged' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:68]
+INFO: [Synth 8-3491] module 'Signal_Trigger' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Signal_Trigger.vhd:22' bound to instance 'u_Signal_Trigger' of component 'Signal_Trigger' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'Signal_Trigger' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Signal_Trigger.vhd:36]
+INFO: [Synth 8-3491] module 'Sample_and_Hold_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold_block.vhd:22' bound to instance 'u_Sample_and_Hold' of component 'Sample_and_Hold_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Signal_Trigger.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'Sample_and_Hold_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold_block.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Sample_and_Hold_block' (1#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold_block.vhd:33]
+INFO: [Synth 8-3491] module 'Fenetrage' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Fenetrage.vhd:23' bound to instance 'u_Fenetrage' of component 'Fenetrage' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Signal_Trigger.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'Fenetrage' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Fenetrage.vhd:34]
+INFO: [Synth 8-3491] module 'Subsystem_block3' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block3.vhd:22' bound to instance 'u_Subsystem' of component 'Subsystem_block3' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Fenetrage.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'Subsystem_block3' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block3.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Subsystem_block3' (2#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block3.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Fenetrage' (3#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Fenetrage.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Signal_Trigger' (4#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Signal_Trigger.vhd:36]
+INFO: [Synth 8-3491] module 'FFT_Hydro_Ref' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_Ref.vhd:22' bound to instance 'u_FFT_Hydro_Ref' of component 'FFT_Hydro_Ref' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:271]
+INFO: [Synth 8-638] synthesizing module 'FFT_Hydro_Ref' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_Ref.vhd:36]
+INFO: [Synth 8-3491] module 'FFT_HDL_Optimized_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:24' bound to instance 'u_FFT_HDL_Optimized' of component 'FFT_HDL_Optimized_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_Ref.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'FFT_HDL_Optimized_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:38]
+INFO: [Synth 8-3491] module 'TWDLROM_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block2.vhd:23' bound to instance 'u_MinResRX2FFT_TWDLROM' of component 'TWDLROM_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'TWDLROM_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block2.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'TWDLROM_block2' (5#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block2.vhd:36]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_MEMORY_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:23' bound to instance 'u_MinResRX2FFT_MEMORY' of component 'MINRESRX2FFT_MEMORY_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:269]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMORY_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:48]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_11' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:37]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SimpleDualPortRAM_generic' (6#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:37]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_11' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:179]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_10' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:192]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_10' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:205]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_01' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:218]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_01' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:231]
+INFO: [Synth 8-226] default block is never used [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:446]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMORY_block2' (7#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block2.vhd:48]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_BTFSEL_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block2.vhd:22' bound to instance 'u_MinResRX2FFT_BTFSEL' of component 'MINRESRX2FFT_BTFSEL_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:292]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_BTFSEL_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block2.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_BTFSEL_block2' (8#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block2.vhd:46]
+INFO: [Synth 8-3491] module 'MINRESRX2_BUTTERFLY_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block2.vhd:23' bound to instance 'u_MinResRX2FFT_BUTTERFLY' of component 'MINRESRX2_BUTTERFLY_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:314]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2_BUTTERFLY_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block2.vhd:44]
+INFO: [Synth 8-3491] module 'Complex3Multiply_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block2.vhd:22' bound to instance 'u_MUL3' of component 'Complex3Multiply_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block2.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'Complex3Multiply_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block2.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Complex3Multiply_block2' (9#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block2.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2_BUTTERFLY_block2' (10#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block2.vhd:44]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_MEMSEL_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block2.vhd:22' bound to instance 'u_MinResRX2FFT_MEMSEL' of component 'MINRESRX2FFT_MEMSEL_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:333]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMSEL_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block2.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMSEL_block2' (11#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block2.vhd:42]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_CTRL_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block2.vhd:22' bound to instance 'u_MinResRX2FFT_CTRL' of component 'MINRESRX2FFT_CTRL_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:351]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_CTRL_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block2.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_CTRL_block2' (12#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block2.vhd:54]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_OUTMux_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block2.vhd:22' bound to instance 'u_MinResRX2FFT_OUTMUX' of component 'MINRESRX2FFT_OUTMux_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:381]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_OUTMux_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_OUTMux_block2' (13#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'FFT_HDL_Optimized_block2' (14#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block2.vhd:38]
+INFO: [Synth 8-3491] module 'HDL_CMA_core_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:25' bound to instance 'u_Complex_to_Magnitude_Angle_HDL_Optimized' of component 'HDL_CMA_core_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_Ref.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'HDL_CMA_core_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:39]
+INFO: [Synth 8-3491] module 'Quadrant_Mapper_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block2.vhd:22' bound to instance 'u_QuadrantMapper' of component 'Quadrant_Mapper_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Mapper_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block2.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Mapper_block2' (15#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block2.vhd:35]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'CordicKernelMag_block2' (16#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:35]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_1' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:269]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_2' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:280]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_3' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:291]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_4' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:302]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_5' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:313]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_6' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:324]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_7' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:335]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_8' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:346]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_9' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:357]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_10' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:368]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block2.vhd:22' bound to instance 'u_Iteration_11' of component 'CordicKernelMag_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:379]
+INFO: [Synth 8-3491] module 'Quadrant_Correction_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction_block2.vhd:22' bound to instance 'u_QuadrantCorrection' of component 'Quadrant_Correction_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Correction_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction_block2.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Correction_block2' (17#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction_block2.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'HDL_CMA_core_block2' (18#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block2.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'FFT_Hydro_Ref' (19#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_Ref.vhd:36]
+INFO: [Synth 8-3491] module 'Maximum_Hydro_Ref' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:23' bound to instance 'u_Maximum_Hydro_Ref' of component 'Maximum_Hydro_Ref' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:283]
+INFO: [Synth 8-638] synthesizing module 'Maximum_Hydro_Ref' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:38]
+INFO: [Synth 8-3491] module 'Subsystem_block2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block2.vhd:22' bound to instance 'u_Subsystem' of component 'Subsystem_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'Subsystem_block2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block2.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Subsystem_block2' (20#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block2.vhd:32]
+INFO: [Synth 8-3491] module 'Sample_and_Hold' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold.vhd:22' bound to instance 'u_Sample_and_Hold' of component 'Sample_and_Hold' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'Sample_and_Hold' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Sample_and_Hold' (21#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold.vhd:33]
+INFO: [Synth 8-3491] module 'Sample_and_Hold' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold.vhd:22' bound to instance 'u_Sample_and_Hold2' of component 'Sample_and_Hold' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:159]
+INFO: [Synth 8-3491] module 'Sample_and_Hold4' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold4.vhd:22' bound to instance 'u_Sample_and_Hold4' of component 'Sample_and_Hold4' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'Sample_and_Hold4' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold4.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Sample_and_Hold4' (22#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold4.vhd:33]
+INFO: [Synth 8-3491] module 'Sample_and_Hold4' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold4.vhd:22' bound to instance 'u_Sample_and_Hold5' of component 'Sample_and_Hold4' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:177]
+INFO: [Synth 8-3491] module 'Sample_and_Hold1' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold1.vhd:22' bound to instance 'u_Sample_and_Hold1' of component 'Sample_and_Hold1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'Sample_and_Hold1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold1.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Sample_and_Hold1' (23#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold1.vhd:33]
+INFO: [Synth 8-3491] module 'Sample_and_Hold1' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold1.vhd:22' bound to instance 'u_Sample_and_Hold3' of component 'Sample_and_Hold1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:195]
+INFO: [Synth 8-256] done synthesizing module 'Maximum_Hydro_Ref' (24#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_Ref.vhd:38]
+INFO: [Synth 8-3491] module 'FFT_Hydro_1' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_1.vhd:22' bound to instance 'u_FFT_Hydro_1' of component 'FFT_Hydro_1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:296]
+INFO: [Synth 8-638] synthesizing module 'FFT_Hydro_1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_1.vhd:35]
+INFO: [Synth 8-3491] module 'FFT_HDL_Optimized' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:24' bound to instance 'u_FFT_HDL_Optimized' of component 'FFT_HDL_Optimized' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_1.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'FFT_HDL_Optimized' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:37]
+INFO: [Synth 8-3491] module 'TWDLROM' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM.vhd:23' bound to instance 'u_MinResRX2FFT_TWDLROM' of component 'TWDLROM' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'TWDLROM' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'TWDLROM' (25#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM.vhd:36]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_MEMORY' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:23' bound to instance 'u_MinResRX2FFT_MEMORY' of component 'MINRESRX2FFT_MEMORY' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:268]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMORY' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:48]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_11' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:166]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_11' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:179]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_10' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:192]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_10' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:205]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_01_generic' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:218]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_01' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:231]
+INFO: [Synth 8-226] default block is never used [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:446]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMORY' (26#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY.vhd:48]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_BTFSEL' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL.vhd:22' bound to instance 'u_MinResRX2FFT_BTFSEL' of component 'MINRESRX2FFT_BTFSEL' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:291]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_BTFSEL' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_BTFSEL' (27#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL.vhd:46]
+INFO: [Synth 8-3491] module 'MINRESRX2_BUTTERFLY' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY.vhd:23' bound to instance 'u_MinResRX2FFT_BUTTERFLY' of component 'MINRESRX2_BUTTERFLY' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:313]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2_BUTTERFLY' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY.vhd:44]
+INFO: [Synth 8-3491] module 'Complex3Multiply' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply.vhd:22' bound to instance 'u_MUL3' of component 'Complex3Multiply' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'Complex3Multiply' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Complex3Multiply' (28#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2_BUTTERFLY' (29#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY.vhd:44]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_MEMSEL' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL.vhd:22' bound to instance 'u_MinResRX2FFT_MEMSEL' of component 'MINRESRX2FFT_MEMSEL' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:332]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMSEL' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMSEL' (30#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL.vhd:42]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_CTRL' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL.vhd:22' bound to instance 'u_MinResRX2FFT_CTRL' of component 'MINRESRX2FFT_CTRL' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:350]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_CTRL' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_CTRL' (31#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL.vhd:54]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_OUTMux' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux.vhd:22' bound to instance 'u_MinResRX2FFT_OUTMUX' of component 'MINRESRX2FFT_OUTMux' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:380]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_OUTMux' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_OUTMux' (32#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'FFT_HDL_Optimized' (33#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized.vhd:37]
+INFO: [Synth 8-3491] module 'HDL_CMA_core' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:25' bound to instance 'u_Complex_to_Magnitude_Angle_HDL_Optimized' of component 'HDL_CMA_core' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_1.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'HDL_CMA_core' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:39]
+INFO: [Synth 8-3491] module 'Quadrant_Mapper' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper.vhd:22' bound to instance 'u_QuadrantMapper' of component 'Quadrant_Mapper' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Mapper' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Mapper' (34#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper.vhd:35]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'CordicKernelMag' (35#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:35]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_1' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:269]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_2' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:280]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_3' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:291]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_4' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:302]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_5' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:313]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_6' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:324]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_7' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:335]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_8' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:346]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_9' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:357]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_10' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:368]
+INFO: [Synth 8-3491] module 'CordicKernelMag' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag.vhd:22' bound to instance 'u_Iteration_11' of component 'CordicKernelMag' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:379]
+INFO: [Synth 8-3491] module 'Quadrant_Correction' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction.vhd:22' bound to instance 'u_QuadrantCorrection' of component 'Quadrant_Correction' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Correction' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Correction' (36#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'HDL_CMA_core' (37#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'FFT_Hydro_1' (38#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_1.vhd:35]
+INFO: [Synth 8-3491] module 'Maximum_Hydro_1' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_1.vhd:23' bound to instance 'u_Maximum_Hydro_1' of component 'Maximum_Hydro_1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:307]
+INFO: [Synth 8-638] synthesizing module 'Maximum_Hydro_1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_1.vhd:35]
+INFO: [Synth 8-3491] module 'Subsystem' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem.vhd:22' bound to instance 'u_Subsystem' of component 'Subsystem' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_1.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'Subsystem' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Subsystem' (39#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem.vhd:32]
+INFO: [Synth 8-3491] module 'Sample_and_Hold' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold.vhd:22' bound to instance 'u_Sample_and_Hold' of component 'Sample_and_Hold' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_1.vhd:126]
+INFO: [Synth 8-3491] module 'Sample_and_Hold4' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold4.vhd:22' bound to instance 'u_Sample_and_Hold4' of component 'Sample_and_Hold4' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_1.vhd:135]
+INFO: [Synth 8-3491] module 'Sample_and_Hold4' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Sample_and_Hold4.vhd:22' bound to instance 'u_Sample_and_Hold5' of component 'Sample_and_Hold4' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_1.vhd:144]
+INFO: [Synth 8-256] done synthesizing module 'Maximum_Hydro_1' (40#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_1.vhd:35]
+INFO: [Synth 8-3491] module 'FFT_Hydro_2' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_2.vhd:22' bound to instance 'u_FFT_Hydro_2' of component 'FFT_Hydro_2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:317]
+INFO: [Synth 8-638] synthesizing module 'FFT_Hydro_2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_2.vhd:35]
+INFO: [Synth 8-3491] module 'FFT_HDL_Optimized_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:24' bound to instance 'u_FFT_HDL_Optimized' of component 'FFT_HDL_Optimized_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_2.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'FFT_HDL_Optimized_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:37]
+INFO: [Synth 8-3491] module 'TWDLROM_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block.vhd:23' bound to instance 'u_MinResRX2FFT_TWDLROM' of component 'TWDLROM_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'TWDLROM_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'TWDLROM_block' (41#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block.vhd:36]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_MEMORY_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:23' bound to instance 'u_MinResRX2FFT_MEMORY' of component 'MINRESRX2FFT_MEMORY_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:268]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMORY_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:48]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_11' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:166]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_11' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:179]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_10' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:192]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_10' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:205]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_re_01' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:218]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_generic' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/SimpleDualPortRAM_generic.vhd:22' bound to instance 'u_dataMEM_im_01' of component 'SimpleDualPortRAM_generic' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:231]
+INFO: [Synth 8-226] default block is never used [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:446]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMORY_block' (42#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block.vhd:48]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_BTFSEL_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block.vhd:22' bound to instance 'u_MinResRX2FFT_BTFSEL' of component 'MINRESRX2FFT_BTFSEL_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:291]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_BTFSEL_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_BTFSEL_block' (43#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block.vhd:46]
+INFO: [Synth 8-3491] module 'MINRESRX2_BUTTERFLY_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block.vhd:23' bound to instance 'u_MinResRX2FFT_BUTTERFLY' of component 'MINRESRX2_BUTTERFLY_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:313]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2_BUTTERFLY_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block.vhd:44]
+INFO: [Synth 8-3491] module 'Complex3Multiply_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block.vhd:22' bound to instance 'u_MUL3' of component 'Complex3Multiply_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'Complex3Multiply_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Complex3Multiply_block' (44#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2_BUTTERFLY_block' (45#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block.vhd:44]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_MEMSEL_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block.vhd:22' bound to instance 'u_MinResRX2FFT_MEMSEL' of component 'MINRESRX2FFT_MEMSEL_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:332]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMSEL_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMSEL_block' (46#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block.vhd:42]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_CTRL_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block.vhd:22' bound to instance 'u_MinResRX2FFT_CTRL' of component 'MINRESRX2FFT_CTRL_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:350]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_CTRL_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_CTRL_block' (47#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block.vhd:54]
+INFO: [Synth 8-3491] module 'MINRESRX2FFT_OUTMux_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block.vhd:22' bound to instance 'u_MinResRX2FFT_OUTMUX' of component 'MINRESRX2FFT_OUTMux_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:380]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_OUTMux_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_OUTMux_block' (48#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'FFT_HDL_Optimized_block' (49#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block.vhd:37]
+INFO: [Synth 8-3491] module 'HDL_CMA_core_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block.vhd:25' bound to instance 'u_Complex_to_Magnitude_Angle_HDL_Optimized' of component 'HDL_CMA_core_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_2.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'HDL_CMA_core_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block.vhd:39]
+INFO: [Synth 8-3491] module 'Quadrant_Mapper_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block.vhd:22' bound to instance 'u_QuadrantMapper' of component 'Quadrant_Mapper_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Mapper_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Mapper_block' (50#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block.vhd:35]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block.vhd:22' bound to instance 'u_Iteration' of component 'CordicKernelMag_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'CordicKernelMag_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'CordicKernelMag_block' (51#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block.vhd:35]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block.vhd:22' bound to instance 'u_Iteration_1' of component 'CordicKernelMag_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block.vhd:269]
+INFO: [Synth 8-3491] module 'CordicKernelMag_block' declared at 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block.vhd:22' bound to instance 'u_Iteration_2' of component 'CordicKernelMag_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block.vhd:280]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Correction_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction_block.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Correction_block' (52#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction_block.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'HDL_CMA_core_block' (53#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'FFT_Hydro_2' (54#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_2.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Maximum_Hydro_2' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_2.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Subsystem_block' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Subsystem_block' (55#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Maximum_Hydro_2' (56#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_2.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'FFT_Hydro_3' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_3.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'FFT_HDL_Optimized_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block1.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'TWDLROM_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block1.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'TWDLROM_block1' (57#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/TWDLROM_block1.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMORY_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block1.vhd:48]
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+	Parameter AddrWidth bound to: 7 - type: integer 
+	Parameter DataWidth bound to: 26 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block1.vhd:446]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMORY_block1' (58#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMORY_block1.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_BTFSEL_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block1.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_BTFSEL_block1' (59#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_BTFSEL_block1.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2_BUTTERFLY_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block1.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'Complex3Multiply_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block1.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Complex3Multiply_block1' (60#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Complex3Multiply_block1.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2_BUTTERFLY_block1' (61#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2_BUTTERFLY_block1.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_MEMSEL_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block1.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_MEMSEL_block1' (62#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_MEMSEL_block1.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_CTRL_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block1.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_CTRL_block1' (63#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_CTRL_block1.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'MINRESRX2FFT_OUTMux_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MINRESRX2FFT_OUTMux_block1' (64#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/MINRESRX2FFT_OUTMux_block1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'FFT_HDL_Optimized_block1' (65#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_HDL_Optimized_block1.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'HDL_CMA_core_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block1.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Mapper_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block1.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Mapper_block1' (66#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Mapper_block1.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'CordicKernelMag_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block1.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'CordicKernelMag_block1' (67#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/CordicKernelMag_block1.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Quadrant_Correction_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction_block1.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Quadrant_Correction_block1' (68#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Quadrant_Correction_block1.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'HDL_CMA_core_block1' (69#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/HDL_CMA_core_block1.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'FFT_Hydro_3' (70#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/FFT_Hydro_3.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Maximum_Hydro_3' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_3.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Subsystem_block1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block1.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Subsystem_block1' (71#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem_block1.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Maximum_Hydro_3' (72#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Maximum_Hydro_3.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'Subsystem4' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem4.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'Triggered_Subsystem1' [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Triggered_Subsystem1.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Triggered_Subsystem1' (73#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Triggered_Subsystem1.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Subsystem4' (74#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/Subsystem4.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'DOA_rearanged' (75#1) [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/DOA_rearanged.vhd:68]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1282.047 ; gain = 155.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1303.941 ; gain = 177.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1303.941 ; gain = 177.344
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.724 . Memory (MB): peak = 1303.941 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/clock_constraint.xdc]
+Finished Parsing XDC File [C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/hdlsrc/DOA_rearanged/clock_constraint.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1423.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.505 . Memory (MB): peak = 1441.180 ; gain = 17.832
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1441.180 ; gain = 314.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s25ftgb196-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1441.180 ; gain = 314.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1441.180 ; gain = 314.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'minResRX2FFTCtrl_state_reg' in module 'MINRESRX2FFT_CTRL_block2'
+INFO: [Synth 8-802] inferred FSM for state register 'minResRX2FFTCtrl_state_reg' in module 'MINRESRX2FFT_CTRL'
+INFO: [Synth 8-802] inferred FSM for state register 'minResRX2FFTCtrl_state_reg' in module 'MINRESRX2FFT_CTRL_block'
+INFO: [Synth 8-802] inferred FSM for state register 'minResRX2FFTCtrl_state_reg' in module 'MINRESRX2FFT_CTRL_block1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                       0000000001 |                             0000
+                 iSTATE3 |                       0000000010 |                             0001
+                 iSTATE1 |                       0000000100 |                             0010
+                  iSTATE |                       0000001000 |                             0011
+                 iSTATE7 |                       0000010000 |                             0110
+                 iSTATE6 |                       0000100000 |                             0111
+                 iSTATE8 |                       0001000000 |                             1000
+                 iSTATE2 |                       0010000000 |                             1010
+                 iSTATE0 |                       0100000000 |                             0100
+                 iSTATE9 |                       1000000000 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'minResRX2FFTCtrl_state_reg' using encoding 'one-hot' in module 'MINRESRX2FFT_CTRL_block2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                       0000000001 |                             0000
+                 iSTATE3 |                       0000000010 |                             0001
+                 iSTATE1 |                       0000000100 |                             0010
+                  iSTATE |                       0000001000 |                             0011
+                 iSTATE7 |                       0000010000 |                             0110
+                 iSTATE6 |                       0000100000 |                             0111
+                 iSTATE8 |                       0001000000 |                             1000
+                 iSTATE2 |                       0010000000 |                             1010
+                 iSTATE0 |                       0100000000 |                             0100
+                 iSTATE9 |                       1000000000 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'minResRX2FFTCtrl_state_reg' using encoding 'one-hot' in module 'MINRESRX2FFT_CTRL'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                       0000000001 |                             0000
+                 iSTATE3 |                       0000000010 |                             0001
+                 iSTATE1 |                       0000000100 |                             0010
+                  iSTATE |                       0000001000 |                             0011
+                 iSTATE7 |                       0000010000 |                             0110
+                 iSTATE6 |                       0000100000 |                             0111
+                 iSTATE8 |                       0001000000 |                             1000
+                 iSTATE2 |                       0010000000 |                             1010
+                 iSTATE0 |                       0100000000 |                             0100
+                 iSTATE9 |                       1000000000 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'minResRX2FFTCtrl_state_reg' using encoding 'one-hot' in module 'MINRESRX2FFT_CTRL_block'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                       0000000001 |                             0000
+                 iSTATE3 |                       0000000010 |                             0001
+                 iSTATE1 |                       0000000100 |                             0010
+                  iSTATE |                       0000001000 |                             0011
+                 iSTATE7 |                       0000010000 |                             0110
+                 iSTATE6 |                       0000100000 |                             0111
+                 iSTATE8 |                       0001000000 |                             1000
+                 iSTATE2 |                       0010000000 |                             1010
+                 iSTATE0 |                       0100000000 |                             0100
+                 iSTATE9 |                       1000000000 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'minResRX2FFTCtrl_state_reg' using encoding 'one-hot' in module 'MINRESRX2FFT_CTRL_block1'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1441.180 ; gain = 314.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   55 Bit       Adders := 4     
+	   2 Input   54 Bit       Adders := 12    
+	   3 Input   54 Bit       Adders := 8     
+	   3 Input   53 Bit       Adders := 4     
+	   2 Input   53 Bit       Adders := 4     
+	   2 Input   52 Bit       Adders := 8     
+	   7 Input   42 Bit       Adders := 4     
+	   2 Input   35 Bit       Adders := 1     
+	   2 Input   29 Bit       Adders := 8     
+	   2 Input   28 Bit       Adders := 2     
+	   2 Input   27 Bit       Adders := 17    
+	   3 Input   27 Bit       Adders := 144   
+	   2 Input   17 Bit       Adders := 4     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 12    
+	   2 Input    7 Bit       Adders := 40    
+	   2 Input    5 Bit       Adders := 4     
+	   2 Input    3 Bit       Adders := 8     
+	   2 Input    2 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               55 Bit    Registers := 4     
+	               54 Bit    Registers := 40    
+	               53 Bit    Registers := 12    
+	               52 Bit    Registers := 8     
+	               48 Bit    Registers := 26    
+	               29 Bit    Registers := 20    
+	               27 Bit    Registers := 195   
+	               26 Bit    Registers := 264   
+	               18 Bit    Registers := 28    
+	               17 Bit    Registers := 7     
+	               16 Bit    Registers := 1     
+	               15 Bit    Registers := 4     
+	               10 Bit    Registers := 12    
+	                9 Bit    Registers := 25    
+	                8 Bit    Registers := 16    
+	                7 Bit    Registers := 76    
+	                5 Bit    Registers := 4     
+	                3 Bit    Registers := 69    
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 196   
++---RAMs : 
+	               3K Bit	(128 X 26 bit)          RAMs := 24    
++---Muxes : 
+	   2 Input   29 Bit        Muxes := 40    
+	   2 Input   28 Bit        Muxes := 4     
+	   2 Input   27 Bit        Muxes := 175   
+	   3 Input   26 Bit        Muxes := 4     
+	   4 Input   26 Bit        Muxes := 4     
+	   5 Input   26 Bit        Muxes := 8     
+	   2 Input   26 Bit        Muxes := 80    
+	  10 Input   26 Bit        Muxes := 24    
+	   2 Input   17 Bit        Muxes := 4     
+	   2 Input   16 Bit        Muxes := 3     
+	  10 Input   10 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 64    
+	   2 Input    8 Bit        Muxes := 5     
+	   3 Input    8 Bit        Muxes := 4     
+	  10 Input    8 Bit        Muxes := 8     
+	   2 Input    7 Bit        Muxes := 24    
+	   4 Input    7 Bit        Muxes := 4     
+	   3 Input    7 Bit        Muxes := 4     
+	  10 Input    7 Bit        Muxes := 4     
+	   4 Input    6 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 4     
+	  10 Input    3 Bit        Muxes := 4     
+	   6 Input    2 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 4     
+	  10 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 86    
+	   6 Input    1 Bit        Muxes := 4     
+	   3 Input    1 Bit        Muxes := 4     
+	  10 Input    1 Bit        Muxes := 128   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 90 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: Generating DSP Product2_out1, operation Mode is: A*B.
+DSP Report: operator Product2_out1 is absorbed into DSP Product2_out1.
+DSP Report: Generating DSP Product1_out1, operation Mode is: A*B.
+DSP Report: operator Product1_out1 is absorbed into DSP Product1_out1.
+DSP Report: Generating DSP Product_out1, operation Mode is: A*B.
+DSP Report: operator Product_out1 is absorbed into DSP Product_out1.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_im_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_ProdOfIm_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_ProdOfIm_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_re_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfRe_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfRe_pipe1_reg.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_din1_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10, operation Mode is: A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe10.
+DSP Report: Generating DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register u_MUL3/Complex3Multiply_twiddle_sum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: register u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: operator u_MUL3/Complex3Multiply_prodOfSum_pipe10 is absorbed into DSP u_MUL3/Complex3Multiply_prodOfSum_pipe1_reg.
+DSP Report: Generating DSP Product3_out1, operation Mode is: A*B.
+DSP Report: operator Product3_out1 is absorbed into DSP Product3_out1.
+DSP Report: Generating DSP Multiply_Accumulate_multiply_out, operation Mode is: A:B.
+DSP Report: operator Multiply_Accumulate_multiply_out is absorbed into DSP Multiply_Accumulate_multiply_out.
+DSP Report: Generating DSP Multiply_Accumulate_multiply_out_1_reg, operation Mode is: (PCIN>>17)+A:B.
+DSP Report: register Multiply_Accumulate_multiply_out_1_reg is absorbed into DSP Multiply_Accumulate_multiply_out_1_reg.
+DSP Report: operator Multiply_Accumulate_multiply_out is absorbed into DSP Multiply_Accumulate_multiply_out_1_reg.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 1441.180 ; gain = 314.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++---------------+--------------------------------------------------------------------+---------------+----------------+
+|Module Name    | RTL Object                                                         | Depth x Width | Implemented As | 
++---------------+--------------------------------------------------------------------+---------------+----------------+
+|Fenetrage      | Direct_Lookup_Table_n_D_table_data[0]                              | 256x9         | LUT            | 
+|TWDLROM_block2 | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM_block2 | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
+|TWDLROM        | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM        | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
+|TWDLROM_block  | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM_block  | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
+|TWDLROM_block1 | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM_block1 | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
+|TWDLROM_block1 | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM_block1 | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
+|DOA_rearanged  | u_Signal_Trigger/u_Fenetrage/Direct_Lookup_Table_n_D_table_data[0] | 256x9         | LUT            | 
+|TWDLROM_block  | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM_block  | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
+|TWDLROM        | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM        | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
+|TWDLROM_block2 | Twiddle_re_table_data[0]                                           | 32x25         | LUT            | 
+|TWDLROM_block2 | Twiddle_im_table_data[0]                                           | 32x26         | LUT            | 
++---------------+--------------------------------------------------------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping	Report (see note below)
++----------------------------------------+-----------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                             | RTL Object                                                                        | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------------------------+-----------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_01_generic/ram_reg                             | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++----------------------------------------+-----------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping	Report (see note below)
++---------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Complex3Multiply_block1    | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block1    | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block1    | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply_block1    | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block1    | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block1    | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply_block1    | A2*B2            | 18     | 10     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MINRESRX2_BUTTERFLY_block1 | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block1    | (PCIN>>17)+A2*B2 | 18     | 10     | -      | -      | 37     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|DOA_rearanged              | A*B              | 16     | 9      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|DOA_rearanged              | A*B              | 16     | 9      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|DOA_rearanged              | A*B              | 16     | 9      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block     | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block     | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block     | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply_block     | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block     | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block     | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply_block     | A2*B2            | 18     | 10     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MINRESRX2_BUTTERFLY_block  | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block     | (PCIN>>17)+A2*B2 | 18     | 10     | -      | -      | 37     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply           | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply           | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply           | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply           | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply           | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply           | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply           | A2*B2            | 18     | 10     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MINRESRX2_BUTTERFLY        | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply           | (PCIN>>17)+A2*B2 | 18     | 10     | -      | -      | 37     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply_block2    | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block2    | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block2    | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply_block2    | A2*B2            | 18     | 9      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block2    | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block2    | (PCIN>>17)+A2*B2 | 18     | 9      | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Complex3Multiply_block2    | A2*B2            | 18     | 10     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MINRESRX2_BUTTERFLY_block2 | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|Complex3Multiply_block2    | (PCIN>>17)+A2*B2 | 18     | 10     | -      | -      | 37     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|DOA_rearanged              | A*B              | 16     | 9      | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Subsystem4                 | A:B              | 11     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Subsystem4                 | (PCIN>>17)+A:B   | 2      | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++---------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:27 . Memory (MB): peak = 1448.496 ; gain = 321.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+info: optimization accepted worst group hill climbing move (27872.0/oG.CP 2022.0ps)
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:44 ; elapsed = 00:01:47 . Memory (MB): peak = 1602.055 ; gain = 475.457
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++----------------------------------------+-----------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                             | RTL Object                                                                        | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------------------------+-----------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_0/\u_FFT_Hydro_3/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_1/\u_FFT_Hydro_2/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_re_01_generic/ram_reg                             | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|i_2/\u_FFT_Hydro_1/u_FFT_HDL_Optimized  | u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg                                     | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|DOA_rearanged                           | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg | 128 x 26(READ_FIRST)   | W |   | 128 x 26(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++----------------------------------------+-----------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_01_generic/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_11/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_10/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_re_01/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_MEMORY/u_dataMEM_im_01/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:02 ; elapsed = 00:02:05 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:08 ; elapsed = 00:02:11 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:09 ; elapsed = 00:02:11 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:13 ; elapsed = 00:02:16 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:14 ; elapsed = 00:02:16 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:14 ; elapsed = 00:02:17 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:14 ; elapsed = 00:02:17 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------+----------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name   | RTL Name                                                                                                 | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------+----------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_3_reg[7][25]                     | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_4_reg[7][25]                     | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/btfOut_vld_reg                                | 11     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg__0                      | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg                         | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg__0                      | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg                         | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg[17]                     | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg[17]                     | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__35   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__35   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__34   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__34   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__33   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__33   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__32   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__32   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__31   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__31   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__30   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__30   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__29   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__29   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__28   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__28   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__27   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__27   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__26   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__26   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__25   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__25   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__24   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__24   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__23   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__23   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__22   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__22   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__21   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__21   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__20   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__20   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__19   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__19   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_Complex_to_Magnitude_Angle_HDL_Optimized/Delay_ValidIn_reg_reg[14]                       | 16     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][2]                  | 13     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_3/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][1]                  | 14     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_3_reg[7][25]                     | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_4_reg[7][25]                     | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/btfOut_vld_reg                                | 11     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg__0                      | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg                         | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg__0                      | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg                         | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg[17]                     | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg[17]                     | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__35   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__35   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__34   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__34   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__33   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__33   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__32   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__32   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__31   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__31   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__30   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__30   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__29   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__29   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__28   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__28   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__27   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__27   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__26   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__26   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__25   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__25   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__24   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__24   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__23   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__23   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__22   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__22   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__21   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__21   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__20   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__20   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__19   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__19   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_Complex_to_Magnitude_Angle_HDL_Optimized/Delay_ValidIn_reg_reg[14]                       | 16     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][2]                  | 13     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_2/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][1]                  | 14     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_3_reg[7][25]                     | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_4_reg[7][25]                     | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/btfOut_vld_reg                                | 11     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg__0                      | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg                         | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg__0                      | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg                         | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg[17]                     | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg[17]                     | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__35   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__35   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__34   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__34   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__33   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__33   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__32   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__32   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__31   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__31   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__30   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__30   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__29   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__29   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__28   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__28   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__27   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__27   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__26   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__26   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__25   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__25   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__24   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__24   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__23   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__23   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__22   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__22   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__21   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__21   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__20   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__20   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__19   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__19   | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_Complex_to_Magnitude_Angle_HDL_Optimized/Delay_ValidIn_reg_reg[14]                       | 16     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][2]                  | 13     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_1/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][1]                  | 14     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_3_reg[7][25]                   | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/intdelay_reg_4_reg[7][25]                   | 9      | 26    | YES          | NO                 | YES               | 26     | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/btfOut_vld_reg                              | 11     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg__0                    | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg                       | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg__0                    | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg                       | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_re_reg_reg[17]                   | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/din_im_reg_reg[17]                   | 4      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__35 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__35 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__34 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__34 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__33 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__33 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__32 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__32 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__31 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__31 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__30 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__30 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__29 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__29 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__28 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__28 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__27 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__27 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__26 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__26 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__25 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__25 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__24 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__24 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__23 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__23 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__22 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__22 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__21 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__21 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__20 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__20 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_prodOfRe_pipe10__19 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_FFT_HDL_Optimized/u_MinResRX2FFT_BUTTERFLY/u_MUL3/Complex3Multiply_ProdOfIm_pipe10__19 | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_Complex_to_Magnitude_Angle_HDL_Optimized/Delay_ValidIn_reg_reg[14]                     | 16     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][2]                | 13     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|DOA_rearanged | u_FFT_Hydro_Ref/u_Complex_to_Magnitude_Angle_HDL_Optimized/DelayQC_Control_reg_reg[12][1]                | 14     | 2     | YES          | NO                 | YES               | 2      | 0       | 
++--------------+----------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |  2276|
+|2     |DSP48E1  |    42|
+|7     |LUT1     |   727|
+|8     |LUT2     |  4952|
+|9     |LUT3     |  3454|
+|10    |LUT4     |  1423|
+|11    |LUT5     |  1853|
+|12    |LUT6     |  1961|
+|13    |RAMB18E1 |    24|
+|14    |SRL16E   |   436|
+|15    |FDRE     | 13711|
+|16    |FDSE     |    36|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:14 ; elapsed = 00:02:17 . Memory (MB): peak = 1615.488 ; gain = 488.891
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:53 ; elapsed = 00:02:08 . Memory (MB): peak = 1615.488 ; gain = 351.652
+Synthesis Optimization Complete : Time (s): cpu = 00:02:15 ; elapsed = 00:02:17 . Memory (MB): peak = 1615.488 ; gain = 488.891
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.864 . Memory (MB): peak = 1622.863 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2342 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1622.863 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+301 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:29 ; elapsed = 00:02:41 . Memory (MB): peak = 1622.863 ; gain = 496.266
+INFO: [Common 17-1381] The checkpoint 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/DOA_rearanged_vivado.runs/synth_1/DOA_rearanged.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1622.863 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file DOA_rearanged_utilization_synth.rpt -pb DOA_rearanged_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 21 21:56:43 2021...

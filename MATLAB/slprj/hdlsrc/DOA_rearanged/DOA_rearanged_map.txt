@@ -1,0 +1,76 @@
+ --> DOA_rearanged_pkg
+DOA_rearanged/FFT Hydro 1/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper
+DOA_rearanged/FFT Hydro 1/HDL_CMA_core/CordicKernelMag --> CordicKernelMag
+DOA_rearanged/FFT Hydro 1/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction
+DOA_rearanged/FFT Hydro 1/HDL_CMA_core --> HDL_CMA_core
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/TWDLROM --> TWDLROM
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_MEMORY/SimpleDualPortRAM_generic --> SimpleDualPortRAM_generic
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux
+DOA_rearanged/FFT Hydro 1/FFT HDL Optimized --> FFT_HDL_Optimized
+DOA_rearanged/FFT Hydro 1 --> FFT_Hydro_1
+DOA_rearanged/FFT Hydro 2/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper_block
+DOA_rearanged/FFT Hydro 2/HDL_CMA_core/CordicKernelMag --> CordicKernelMag_block
+DOA_rearanged/FFT Hydro 2/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction_block
+DOA_rearanged/FFT Hydro 2/HDL_CMA_core --> HDL_CMA_core_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/TWDLROM --> TWDLROM_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux_block
+DOA_rearanged/FFT Hydro 2/FFT HDL Optimized --> FFT_HDL_Optimized_block
+DOA_rearanged/FFT Hydro 2 --> FFT_Hydro_2
+DOA_rearanged/FFT Hydro 3/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper_block1
+DOA_rearanged/FFT Hydro 3/HDL_CMA_core/CordicKernelMag --> CordicKernelMag_block1
+DOA_rearanged/FFT Hydro 3/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction_block1
+DOA_rearanged/FFT Hydro 3/HDL_CMA_core --> HDL_CMA_core_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/TWDLROM --> TWDLROM_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux_block1
+DOA_rearanged/FFT Hydro 3/FFT HDL Optimized --> FFT_HDL_Optimized_block1
+DOA_rearanged/FFT Hydro 3 --> FFT_Hydro_3
+DOA_rearanged/Maximum Hydro 1/Sample and Hold4 --> Sample_and_Hold4
+DOA_rearanged/Maximum Hydro 1/Subsystem --> Subsystem
+DOA_rearanged/Maximum Hydro 1/Sample and Hold --> Sample_and_Hold
+DOA_rearanged/Maximum Hydro 1 --> Maximum_Hydro_1
+DOA_rearanged/Maximum Hydro 2/Subsystem --> Subsystem_block
+DOA_rearanged/Maximum Hydro 2 --> Maximum_Hydro_2
+DOA_rearanged/Maximum Hydro 3/Subsystem --> Subsystem_block1
+DOA_rearanged/Maximum Hydro 3 --> Maximum_Hydro_3
+DOA_rearanged/Maximum Hydro 1/Sample and Hold1 --> Sample_and_Hold1
+DOA_rearanged/Maximum Hydro Ref/Subsystem --> Subsystem_block2
+DOA_rearanged/Maximum Hydro Ref --> Maximum_Hydro_Ref
+DOA_rearanged/Subsystem4/Triggered Subsystem1 --> Triggered_Subsystem1
+DOA_rearanged/Subsystem4 --> Subsystem4
+DOA_rearanged/Signal Trigger/Fenetrage/Subsystem --> Subsystem_block3
+DOA_rearanged/Signal Trigger/Fenetrage --> Fenetrage
+DOA_rearanged/Signal Trigger/Sample and Hold --> Sample_and_Hold_block
+DOA_rearanged/Signal Trigger --> Signal_Trigger
+DOA_rearanged/FFT Hydro Ref/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper_block2
+DOA_rearanged/FFT Hydro Ref/HDL_CMA_core/CordicKernelMag --> CordicKernelMag_block2
+DOA_rearanged/FFT Hydro Ref/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction_block2
+DOA_rearanged/FFT Hydro Ref/HDL_CMA_core --> HDL_CMA_core_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/TWDLROM --> TWDLROM_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux_block2
+DOA_rearanged/FFT Hydro Ref/FFT HDL Optimized --> FFT_HDL_Optimized_block2
+DOA_rearanged/FFT Hydro Ref --> FFT_Hydro_Ref
+DOA_rearanged --> DOA_rearanged

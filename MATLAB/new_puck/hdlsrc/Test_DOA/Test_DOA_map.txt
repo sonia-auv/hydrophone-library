@@ -1,0 +1,80 @@
+ --> Test_DOA_pkg
+Test_DOA/Calcul Direction --> Calcul_Direction
+Test_DOA/FFTs/FFT Hydro 1/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper
+Test_DOA/FFTs/FFT Hydro 1/HDL_CMA_core/CordicKernelMag --> CordicKernelMag
+Test_DOA/FFTs/FFT Hydro 1/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction
+Test_DOA/FFTs/FFT Hydro 1/HDL_CMA_core --> HDL_CMA_core
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/TWDLROM --> TWDLROM
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_MEMORY/SimpleDualPortRAM_generic --> SimpleDualPortRAM_generic
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux
+Test_DOA/FFTs/FFT Hydro 1/FFT HDL Optimized --> FFT_HDL_Optimized
+Test_DOA/FFTs/FFT Hydro 1 --> FFT_Hydro_1
+Test_DOA/FFTs/FFT Hydro 2/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper_block
+Test_DOA/FFTs/FFT Hydro 2/HDL_CMA_core/CordicKernelMag --> CordicKernelMag_block
+Test_DOA/FFTs/FFT Hydro 2/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction_block
+Test_DOA/FFTs/FFT Hydro 2/HDL_CMA_core --> HDL_CMA_core_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/TWDLROM --> TWDLROM_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux_block
+Test_DOA/FFTs/FFT Hydro 2/FFT HDL Optimized --> FFT_HDL_Optimized_block
+Test_DOA/FFTs/FFT Hydro 2 --> FFT_Hydro_2
+Test_DOA/FFTs/FFT Hydro 3/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper_block1
+Test_DOA/FFTs/FFT Hydro 3/HDL_CMA_core/CordicKernelMag --> CordicKernelMag_block1
+Test_DOA/FFTs/FFT Hydro 3/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction_block1
+Test_DOA/FFTs/FFT Hydro 3/HDL_CMA_core --> HDL_CMA_core_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/TWDLROM --> TWDLROM_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux_block1
+Test_DOA/FFTs/FFT Hydro 3/FFT HDL Optimized --> FFT_HDL_Optimized_block1
+Test_DOA/FFTs/FFT Hydro 3 --> FFT_Hydro_3
+Test_DOA/FFTs/FFT Hydro Ref/HDL_CMA_core/Quadrant_Mapper --> Quadrant_Mapper_block2
+Test_DOA/FFTs/FFT Hydro Ref/HDL_CMA_core/CordicKernelMag --> CordicKernelMag_block2
+Test_DOA/FFTs/FFT Hydro Ref/HDL_CMA_core/Quadrant_Correction --> Quadrant_Correction_block2
+Test_DOA/FFTs/FFT Hydro Ref/HDL_CMA_core --> HDL_CMA_core_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/TWDLROM --> TWDLROM_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_CTRL --> MINRESRX2FFT_CTRL_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_MEMORY --> MINRESRX2FFT_MEMORY_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_BTFSEL --> MINRESRX2FFT_BTFSEL_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2_BUTTERFLY/Complex3Multiply --> Complex3Multiply_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2_BUTTERFLY --> MINRESRX2_BUTTERFLY_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_MEMSEL --> MINRESRX2FFT_MEMSEL_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized/MINRESRX2FFT_OUTMux --> MINRESRX2FFT_OUTMux_block2
+Test_DOA/FFTs/FFT Hydro Ref/FFT HDL Optimized --> FFT_HDL_Optimized_block2
+Test_DOA/FFTs/FFT Hydro Ref --> FFT_Hydro_Ref
+Test_DOA/FFTs/Trigger/SampleHold/Sample and Hold --> Sample_and_Hold
+Test_DOA/FFTs/Trigger/SampleHold --> SampleHold
+Test_DOA/FFTs/Trigger --> Trigger
+Test_DOA/FFTs --> FFTs
+Test_DOA/Maximum Hydro 1/SampleHold/Sample and Hold --> Sample_and_Hold_block
+Test_DOA/Maximum Hydro 1/SampleHold --> SampleHold_block
+Test_DOA/Maximum Hydro 1/SampleHold5/Sample and Hold --> Sample_and_Hold_block1
+Test_DOA/Maximum Hydro 1/SampleHold5 --> SampleHold5
+Test_DOA/Maximum Hydro 1/Subsystem --> Subsystem
+Test_DOA/Maximum Hydro 1 --> Maximum_Hydro_1
+Test_DOA/Maximum Hydro 2/Subsystem --> Subsystem_block
+Test_DOA/Maximum Hydro 2 --> Maximum_Hydro_2
+Test_DOA/Maximum Hydro 3/Subsystem --> Subsystem_block1
+Test_DOA/Maximum Hydro 3 --> Maximum_Hydro_3
+Test_DOA/Maximum Hydro 1/SampleHold3/Sample and Hold --> Sample_and_Hold_block2
+Test_DOA/Maximum Hydro 1/SampleHold3 --> SampleHold3
+Test_DOA/Maximum Hydro Ref/Subsystem --> Subsystem_block2
+Test_DOA/Maximum Hydro Ref --> Maximum_Hydro_Ref
+Test_DOA/SNR Check/Division --> Division
+Test_DOA/SNR Check --> SNR_Check
+Test_DOA --> Test_DOA

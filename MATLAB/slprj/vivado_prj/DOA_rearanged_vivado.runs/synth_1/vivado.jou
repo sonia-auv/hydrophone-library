@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 21 21:53:46 2021
+# Process ID: 3728
+# Current directory: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/DOA_rearanged_vivado.runs/synth_1
+# Command line: vivado.exe -log DOA_rearanged.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DOA_rearanged.tcl
+# Log file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/DOA_rearanged_vivado.runs/synth_1/DOA_rearanged.vds
+# Journal file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/DOA_rearanged_vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DOA_rearanged.tcl -notrace

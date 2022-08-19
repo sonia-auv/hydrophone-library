@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 21 21:52:18 2021
+# Process ID: 12920
+# Current directory: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj
+# Command line: vivado.exe -mode batch -notrace -source DOA_rearanged_Xilinx_Vivado_run.tcl
+# Log file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj/vivado.log
+# Journal file: C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj\vivado.jou
+#-----------------------------------------------------------
+source DOA_rearanged_Xilinx_Vivado_run.tcl -notrace
+### Create new Xilinx Vivado 2020.2 project <a href="matlab:downstream.handle('Model','DOA_rearanged').openTargetTool;">C:\Users\franc\OneDrive\Documents techniques\ETS\SONIA\Hydro software\Hydro_Update\slprj\vivado_prj\DOA_rearanged_vivado.xpr</a>
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/franc/OneDrive/Documents techniques/ETS/SONIA/Hydro software/Hydro_Update/slprj/vivado_prj'
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1108.234 ; gain = 0.000
+### Set Xilinx Vivado 2020.2 project properties
+### Update Xilinx Vivado 2020.2 project with HDL source files
+WARNING: [Vivado 12-818] No files matched '*.tcl'
+### Close Xilinx Vivado 2020.2 project.
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 21 21:52:37 2021...
