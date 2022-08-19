@@ -1,0 +1,8 @@
+SONIA AUV Hydrophones 2022
+
+Position Matrix for the phase received by our hydrophone. Measurements are in millimeters.
+
+HRef = [0 0 0]
+H1 = [0.56 -14.52 -4]
+H2 = [-12.56 -7.25 -4]
+H3 = [-12.30 7.75 -4]
